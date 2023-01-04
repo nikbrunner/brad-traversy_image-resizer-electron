@@ -1,0 +1,30 @@
+{
+    "name": "brad-traversy_image-resizer-electron",
+    "productName": "Image Resizer",
+    "version": "1.0.0",
+    "description": "App to resise image dimension",
+    "main": "main.js",
+    "scripts": {
+        "format:check": "prettier --check .",
+        "format": "prettier --write .",
+        "start": "electron .",
+        "dev": "npx electronmon ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nikbrunner/brad-traversy_image-resizer-electron.git"
+    },
+    "author": "Nik Brunner",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nikbrunner/brad-traversy_image-resizer-electron/issues"
+    },
+    "homepage": "https://github.com/nikbrunner/brad-traversy_image-resizer-electron#readme",
+    "devDependencies": {
+        "electron": "22.0.0",
+        "eslint": "8.31.0",
+        "prettier": "2.8.1",
+        "resize-img": "2.0.0",
+        "toastify-js": "1.12.0"
+    }
+}
